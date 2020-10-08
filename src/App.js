@@ -11,8 +11,8 @@ function App() {
         initialContentState={contentState}
         onContentStateChange={setContentState}
         toolbar={{
-          previewImage: true,
           image: {
+            previewImage: true,
             alt: { present: false }, 
             uploadCallback: (file) => {
               return new Promise((resolve, reject) => {
